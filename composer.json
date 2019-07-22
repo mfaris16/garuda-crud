@@ -9,13 +9,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelFrontendPresets\\ArgonPreset\\": "src/"
+            "LaravelFrontendPresets\\GarudaPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelFrontendPresets\\ArgonPreset\\ArgonPresetServiceProvider"
+                "LaravelFrontendPresets\\GarudaPreset\\GarudaPresetServiceProvider"
             ]
         }
     }
