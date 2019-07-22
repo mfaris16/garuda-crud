@@ -2,7 +2,7 @@
 
 1. `Cd` to your Laravel app  
 2. Install this preset via `composer require mfaris16/garuda`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
-3. Run `php artisan preset argon` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+3. Run `php artisan preset garuda` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 4. In your terminal run `composer dump-autoload`
 5. Run `php artisan migrate --seed` to create basic users table
@@ -11,7 +11,7 @@
 
 1. In your application's root create a **presets** folder
 2. [Download an archive](https://github.com/mfaris16/garuda-crud/archive/master.zip) of the repo and unzip it
-3. Copy and paste **argon-master** folder in presets (created in step 2) and rename it to **garuda**
+3. Copy and paste **garuda-master** folder in presets (created in step 2) and rename it to **garuda**
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\GarudaPreset\\": "presets/garuda/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\GarudaPreset\GarudaPresetServiceProvider::class` to `config/app.php` file
