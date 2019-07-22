@@ -23,7 +23,7 @@
 
 ## Usage
 
-Register a user or login using **admin@argon.com** and **secret** and start testing the preset (make sure to run the migrations and seeders for these credentials to be available).
+Register a user or login using **admin@garudatech.id** and **password** and start testing the preset (make sure to run the migrations and seeders for these credentials to be available).
 
 Besides the dashboard and the auth pages this preset also has a user management example and an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user. 
 
@@ -117,6 +117,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 - [Creative Tim](https://creative-tim.com/)
 - [Updivision](https://updivision.com)
+- [Garuda Tech](https://garudatech.id)
 
 ## License
 
