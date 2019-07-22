@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelFrontendPresets\ArgonPreset;
+namespace LaravelFrontendPresets\GarudaPreset;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Console\Presets\Preset;
 
-class ArgonPreset extends Preset
+class GarudaPreset extends Preset
 {
     const STUBSPATH = __DIR__.'/argon-stubs/';
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelFrontendPresets\ArgonPreset;
+namespace LaravelFrontendPresets\GarudaPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
-class ArgonPresetServiceProvider extends ServiceProvider
+class GarudaPresetServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
@@ -15,7 +15,7 @@ class ArgonPresetServiceProvider extends ServiceProvider
     public function boot()
     {
         PresetCommand::macro('garuda', function ($command) {
-            ArgonPreset::install();
+            GarudaPreset::install();
             
             $command->info('Garuda scaffolding installed successfully.');
         });
