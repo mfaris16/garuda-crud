@@ -11,7 +11,7 @@
 
 1. In your application's root create a **presets** folder
 2. [Download an archive](https://github.com/mfaris16/garuda-crud/archive/master.zip) of the repo and unzip it
-3. Copy and paste **garuda-master** folder in presets (created in step 2) and rename it to **garuda**
+3. Copy and paste **garuda-crud-master** folder in presets (created in step 2) and rename it to **garuda**
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\GarudaPreset\\": "presets/garuda/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\GarudaPreset\GarudaPresetServiceProvider::class` to `config/app.php` file
