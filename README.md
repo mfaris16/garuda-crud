@@ -1,32 +1,7 @@
-# Argon Frontend Preset For Laravel Framework 5.5 and Up
-
-Garuda Frontend Preset For Laravel Framework 5.5 and Up
-
-*Current version*: Argon v1.0.10. More info at https://www.creative-tim.com/product/argon-dashboard-laravel.
-
-## Note
-
-We recommend installing this preset on a project that you are starting from scratch, otherwise your project's design might break.
-
-## Prerequisites
-
-If you don't already have an Apache local environment with PHP and MySQL, use one of the following links:
-
- - Windows: https://updivision.com/blog/post/beginner-s-guide-to-setting-up-your-local-development-environment-on-windows
- - Linux: https://howtoubuntu.org/how-to-install-lamp-on-ubuntu
- - Mac: https://wpshout.com/quick-guides/how-to-install-mamp-on-your-mac/
-
-Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md   
-And Laravel: https://laravel.com/docs/5.8/installation
-
-## Installation
-
-After initializing a fresh instance of Laravel (and making all the necessary configurations), install the preset using one of the provided methods:
-
 ### Via composer
 
 1. `Cd` to your Laravel app  
-2. Install this preset via `composer require laravel-frontend-presets/argon`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
+2. Install this preset via `composer require mfaris16/garuda`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
 3. Run `php artisan preset argon` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 4. In your terminal run `composer dump-autoload`
@@ -35,13 +10,13 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 ### By using the archive
 
 1. In your application's root create a **presets** folder
-2. [Download an archive](https://github.com/laravel-frontend-presets/argon/archive/master.zip) of the repo and unzip it
-3. Copy and paste **argon-master** folder in presets (created in step 2) and rename it to **argon**
+2. [Download an archive](https://github.com/mfaris16/garuda-crud/archive/master.zip) of the repo and unzip it
+3. Copy and paste **argon-master** folder in presets (created in step 2) and rename it to **garuda**
 4. Open `composer.json` file 
-5. Add `"LaravelFrontendPresets\\ArgonPreset\\": "presets/argon/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
-6. Add `LaravelFrontendPresets\ArgonPreset\ArgonPresetServiceProvider::class` to `config/app.php` file
+5. Add `"LaravelFrontendPresets\\GarudaPreset\\": "presets/garuda/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
+6. Add `LaravelFrontendPresets\GarudaPreset\GarudaPresetServiceProvider::class` to `config/app.php` file
 7. In your terminal run `composer dump-autoload`
-8. Run `php artisan preset argon` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+8. Run `php artisan preset garuda` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 9. Run `php artisan migrate --seed` to create basic users table
 
