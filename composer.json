@@ -1,9 +1,9 @@
 {
-    "name": "laravel-frontend-presets/argon",
-    "description": "Laravel 5.x Front-end preset for argon",
+    "name": "mfaris16/garuda-crud",
+    "description": "Laravel 5.x Front-end preset for garuda",
     "license": "MIT",
-    "homepage": "https://github.com/creativetimofficial/argon-dashboard",
-    "keywords": ["Laravel", "Preset", "Argon"],
+    "homepage": "https://github.com/mfaris16/garuda-crud",
+    "keywords": ["Laravel", "Preset", "Garuda"],
     "require": {
         "laravel/framework": "^5.5"
     },
